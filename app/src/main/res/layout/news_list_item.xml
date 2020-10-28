@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:background="@color/backgroundColor"
+    android:padding="@dimen/default_app_padding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingRight="@dimen/default_app_padding">
+
+            <TextView
+                android:id="@+id/news_section"
+                style="@style/list_item_section_name_style"
+                tools:text="@string/placeholder_text_section" />
+
+            <TextView
+                android:id="@+id/news_headline"
+                style="@style/list_item_headline_text_style"
+                tools:text="@string/placeholder_text_headline" />
+
+            <TextView
+                android:id="@+id/news_time"
+                style="@style/list_item_date_style"
+                tools:text="@string/placeholder_text_time" />
+
+            <TextView
+                android:id="@+id/news_contributor_name"
+                style="@style/list_item_author_text_style"
+                tools:text="@string/placeholder_text_author" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/buffer_view"
+            android:layout_width="@dimen/thumbnail_height"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/news_thumbnail"
+        style="@style/list_item_news_thumbnail_style"
+        android:src="@drawable/no_image_placeholder" />
+</RelativeLayout>

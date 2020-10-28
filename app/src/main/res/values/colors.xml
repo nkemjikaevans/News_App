@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App theme -->
+    <color name="colorPrimary">#263238</color>
+    <color name="colorPrimaryDark">#263238</color>
+    <color name="colorAccent">#2979FF</color>
+
+    <!-- Text color schemes -->
+    <color name="primaryTextColor">#212121</color>
+    <color name="secondaryTextColor">#757575</color>
+
+    <!-- Color for category in each list item -->
+    <color name="listItemCategoryColor">#2979FF</color>
+
+    <!-- Background color for each activity -->
+    <color name="backgroundColor">#FFFFFF</color>
+
+    <!-- Swipe to refresh widget color scheme -->
+    <color name="orange">#FF9900</color>
+    <color name="green">#009900</color>
+    <color name="blue">#000099</color>
+
+    <!-- Color scheme for quick links in navigation drawer -->
+    <color name="categoryCulture">#00695C</color>
+
+    <!-- Navigation view item default color -->
+    <color name="navigation_list_color">#454545</color>
+</resources>
+
